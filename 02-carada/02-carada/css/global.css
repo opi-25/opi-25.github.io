@@ -1,22 +1,20 @@
-<style>
-    /* General table styling */
-    table {
-        width: 20vw; /* Or consider using 100% if you want it to adapt to the parent container */
-        border-collapse: collapse; /* Ensures borders are collapsed if there are borders */
-    }
+/* General table styling */
+table {
+    width: 100%; /* Consider using 100% if you want it to adapt to the parent container */
+    border-collapse: collapse; /* Ensure borders are collapsed if there are borders */
+}
 
-    /* Even rows background color */
-    table tr:nth-child(even) {
-        background-color: #f2f2f2;
-    }
+/* Even rows background color */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
-    /* Odd rows background color */
-    table tr:nth-child(odd) {
-        background-color: #ffffff;
-    }
+/* Odd rows background color */
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
 
-    /* Footer styling */
-    table tfoot {
-        font-weight: bold;
-    }
-</style>
+/* Footer styling */
+table tfoot {
+    font-weight: bold;
+}
